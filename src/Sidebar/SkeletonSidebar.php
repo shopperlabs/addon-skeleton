@@ -21,7 +21,7 @@ final class SkeletonSidebar extends AbstractAdminSidebar
                 $item->weight(1);
                 $item->setAuthorized($this->user->hasPermissionTo('skeleton_snake.browse'));
                 $item->route('shopper.skeleton-slug.index');
-                $item->setIcon('untitledui-grid-01');
+                $item->setIcon('untitledui-grid');
                 $item->useSpa();
             });
         });
