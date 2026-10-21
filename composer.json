@@ -24,7 +24,7 @@
   ],
   "require": {
     "php": "^8.3",
-    "shopper/framework": "^3.0.0-beta",
+    "shopper/framework": "^3.0.0-rc.4",
     "spatie/laravel-package-tools": "^1.15"
   },
   "require-dev": {
